@@ -1,11 +1,9 @@
-/* Reset some default styles */
 body, h1, h2, h3, p, ul, li, form, input, textarea, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and background */
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background: #f4f6f8;
@@ -13,7 +11,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header styles */
 header {
     background: #2d3e50;
     color: #fff;
@@ -30,7 +27,6 @@ header p {
     color: #cfd8dc;
 }
 
-/* Navigation styles */
 nav ul {
     list-style: none;
     display: flex;
@@ -50,7 +46,6 @@ nav a:hover {
     color: #ffd700;
 }
 
-/* Section styles */
 section {
     max-width: 800px;
     margin: 2rem auto;
@@ -65,7 +60,6 @@ h2 {
     margin-bottom: 1rem;
 }
 
-/* Project styles */
 .project {
     margin-bottom: 2rem;
 }
@@ -78,7 +72,6 @@ h2 {
     box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
 }
 
-/* Skills list */
 #skills ul {
     display: flex;
     gap: 1.5rem;
@@ -93,7 +86,6 @@ h2 {
     font-weight: 500;
 }
 
-/* Contact form */
 form {
     display: flex;
     flex-direction: column;
@@ -127,7 +119,6 @@ button[type="submit"]:hover {
     color: #2d3e50;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 1rem 0;
